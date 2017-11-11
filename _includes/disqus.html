@@ -3,7 +3,7 @@
     <script type="text/javascript" charset="utf-8">
       (function(){
         var param = {
-          url: 'http://beiyuu.com{{ page.url }}',
+          url: 'http://luoguorong.xyz{{ page.url }}',
           type: '6',
           title: '《{{ page.title }}》' + '- {{ page.description }}',
           ralateUid: '1855270953',
@@ -13,7 +13,6 @@
         for( var p in param ){
           temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
         }
-        document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="86" height="16"></iframe>')
       })()
     </script>
   </div>
